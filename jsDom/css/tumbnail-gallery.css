@@ -1,0 +1,32 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (https://startbootstrap.com/template-overviews/thumbnail-gallery)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 74px;
+}
+
+.thumb{
+    margin-bottom: 30px;
+}
+footer {
+    margin: 50px 0 ;
+}
+
+.grid-item{
+    width:  300px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.grid-item--width2 { width: 400x;}
+
+#container {
+    widows: 1000px
+}
+
+.carimages{
+    margin: 0 auto;
+}

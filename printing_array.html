@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+        If statement  
+        </title>
+    </head>
+<body>
+    
+    <p id="lis">HOVER TO SEE LIST</p>
+    
+    
+    <script>
+        document.getElementById("lis").onmouseover= function()
+        {
+            document.getElementById("lis").innerHTML=  Farray();
+            
+            document.getElementById("lis").onmouseout = function()
+           {
+               document.getElementById("lis").innerHTML = 'ana iadsfjosadj' ;
+
+            };
+        };
+        
+        
+            
+            
+         
+        
+        
+        function Farray()
+        {
+               var names = new Array('niranjan','sudarshan','nischal');
+    
+               for (var i=0 ; i<names.length; i++)
+                    {
+                        document.write( names[i] + "<br>")
+                     };
+        };
+        
+        document.getElementById("lis").onclick = function()
+           {
+               document.getElementById("lis").innerHTML = 'ana iadsfjosadj' ;
+
+            };
+        
+      
+        
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
